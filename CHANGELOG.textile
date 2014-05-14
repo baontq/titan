@@ -5,6 +5,10 @@ Titan: Distributed Graph Database
 
 h2. Titan 0.y.z
 
+h3. Version 0.4.5
+	Downgrade kyro to 2.17 to be compatible with Storm
+	To deploy for Rexster, copy all jar files under titan/lib/*.jar and titan/titan-rexster/target/titan-rexster-<version>.jar to rexster/ext/titan folder
+	
 h3. Version 0.4.4 (April 22, 2014)
 
 ```xml
